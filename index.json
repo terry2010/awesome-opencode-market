@@ -642,12 +642,12 @@
       },
       "verification": {
         "status": "failed",
-        "level": "install",
-        "opencodeVersion": "unknown",
-        "verifiedAt": "2026-11-05T09:33:39.992Z",
-        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/42003225191",
-        "logExcerpt": "harness error: Error: Command failed: sudo -n -u nobody mkdir -p /tmp/verify-T4i2v4/u\nmkdir: Permission denied\n",
-        "retries": 1
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-05T09:38:19.022Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/42003883520",
+        "logExcerpt": "\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"@ai-vibeway/cli@0.0.167\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_f170302c\"}}]}",
+        "retries": 2
       },
       "compat": {},
       "approval": "pending",
@@ -9983,12 +9983,12 @@
       },
       "verification": {
         "status": "failed",
-        "level": "install",
-        "opencodeVersion": "unknown",
-        "verifiedAt": "2026-11-05T09:33:40.001Z",
-        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/42003225191",
-        "logExcerpt": "harness error: Error: Command failed: sudo -n -u nobody mkdir -p /tmp/verify-2tnbX5/u\nmkdir: Permission denied\n",
-        "retries": 1
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-05T09:38:23.472Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/42003883520",
+        "logExcerpt": "plugin half passed (load); skill payload failed:\nno SKILL.md in @magpie-community/opencode-trae-auth@0.2.30 tarball",
+        "retries": 2
       },
       "compat": {},
       "approval": "pending",
@@ -26321,13 +26321,11 @@
         "redFlags": []
       },
       "verification": {
-        "status": "failed",
-        "level": "install",
-        "opencodeVersion": "unknown",
-        "verifiedAt": "2026-11-05T09:33:40.010Z",
-        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/42003225191",
-        "logExcerpt": "harness error: Error: Command failed: sudo -n -u nobody mkdir -p /tmp/verify-Foiuwp/u\nmkdir: Permission denied\n",
-        "retries": 1
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-05T09:38:25.663Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/42003883520"
       },
       "compat": {},
       "approval": "legacy"
