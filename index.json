@@ -641,7 +641,13 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "unknown",
+        "verifiedAt": "2026-11-05T09:33:39.992Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/42003225191",
+        "logExcerpt": "harness error: Error: Command failed: sudo -n -u nobody mkdir -p /tmp/verify-T4i2v4/u\nmkdir: Permission denied\n",
+        "retries": 1
       },
       "compat": {},
       "approval": "pending",
@@ -9976,7 +9982,13 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "unknown",
+        "verifiedAt": "2026-11-05T09:33:40.001Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/42003225191",
+        "logExcerpt": "harness error: Error: Command failed: sudo -n -u nobody mkdir -p /tmp/verify-2tnbX5/u\nmkdir: Permission denied\n",
+        "retries": 1
       },
       "compat": {},
       "approval": "pending",
@@ -26309,7 +26321,13 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "unknown",
+        "verifiedAt": "2026-11-05T09:33:40.010Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/42003225191",
+        "logExcerpt": "harness error: Error: Command failed: sudo -n -u nobody mkdir -p /tmp/verify-Foiuwp/u\nmkdir: Permission denied\n",
+        "retries": 1
       },
       "compat": {},
       "approval": "legacy"
