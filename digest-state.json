@@ -1,3 +1,24 @@
 {
-  "lastDigestAt": "2026-11-04T04:48:09.059Z"
+  "lastDigestAt": "2026-11-04T04:48:09.059Z",
+  "day": "2026-11-06",
+  "dayAnnounced": [
+    "@kyan-plugins/memory-monitor\u00000.1.0\u00002026-11-04T04:40:21.774Z",
+    "oc-market-quail-zephyr-72a0\u00000.0.2\u00002026-11-04T04:03:05.583Z",
+    "@fimars/mem9-oc2\u00000.2.1\u00002026-11-04T04:42:10.592Z",
+    "@kyan-plugins/run-meter\u00000.2.0\u00002026-11-04T04:40:19.457Z",
+    "oc-purge\u00000.5.0\u00002026-11-04T04:40:21.771Z",
+    "opencode-gaslight\u00000.1.1\u00002026-11-04T04:40:27.099Z",
+    "opencode-keystone\u00000.3.15\u00002026-11-04T04:41:50.914Z",
+    "opencode-poke\u00000.1.5\u00002026-11-04T04:43:59.750Z"
+  ],
+  "announced": [
+    "@kyan-plugins/memory-monitor\u00000.1.0\u00002026-11-04T04:40:21.774Z",
+    "oc-market-quail-zephyr-72a0\u00000.0.2\u00002026-11-04T04:03:05.583Z",
+    "@fimars/mem9-oc2\u00000.2.1\u00002026-11-04T04:42:10.592Z",
+    "@kyan-plugins/run-meter\u00000.2.0\u00002026-11-04T04:40:19.457Z",
+    "oc-purge\u00000.5.0\u00002026-11-04T04:40:21.771Z",
+    "opencode-gaslight\u00000.1.1\u00002026-11-04T04:40:27.099Z",
+    "opencode-keystone\u00000.3.15\u00002026-11-04T04:41:50.914Z",
+    "opencode-poke\u00000.1.5\u00002026-11-04T04:43:59.750Z"
+  ]
 }
