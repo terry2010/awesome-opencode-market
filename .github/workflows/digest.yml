@@ -317,8 +317,9 @@ jobs:
                   LEGS="${LEGS}6"
                 fi
                 # pushed=spooled 与通道降级不同义——判词写出来了但 catalog 推送
-                # 重试全败、滞留本机 spool 等下轮重放。戳滞后一个 run（发布先于
-                # 本轮推送结果），单次 spooled 可能已自愈；持续=remote/凭据坏。
+                # 重试全败、滞留本机 spool 等下轮重放。wrapper 每条终止路径都
+                # stamp+publish，戳反映本轮结果（不再是滞后一个 run），单次
+                # spooled 即当下真实故障；持续=remote/凭据坏。
                 # 单列第七腿而非复用 6：LEGS 指纹按腿号去重，降级消退+spooled
                 # 新发同为"6"会被判同腿静默吞掉新告警。
                 if [ "$H_PUSHED" = "spooled" ]; then

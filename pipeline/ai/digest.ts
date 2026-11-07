@@ -349,9 +349,10 @@ export function renderDigest({ index, verdicts, prev, now, paused = false, healt
     : ''
   // pushed=spooled is NOT channel degradation — the run wrote verdicts but
   // the catalog push failed after retries, so they sit in the local spool
-  // awaiting next run's replay. The published stamp lags one run (publish
-  // happens before this run's own push resolves), so a lone 'spooled' may
-  // already be recovered; persistent spooled = remote/credentials broken.
+  // awaiting next run's replay. The wrapper stamps `pushed` and publishes on
+  // every terminal path (ok / already-landed / spooled / not-pushed), so the
+  // branch stamp reflects the current run — a fresh 'spooled' is actionable
+  // the same cycle it happens, no one-run lag.
   const pushNote = healthFresh && !paused && health?.pushed === 'spooled'
     ? ` / ⚠️ 最近一次判词推送 catalog 失败、滞留本机 spool 待重放——若持续出现检查本机 git remote/凭据；详见 diagnose-health.json pushed 字段`
     : ''

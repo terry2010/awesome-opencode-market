@@ -366,10 +366,21 @@ npx tsx pipeline/ai/diagnose.ts \
   ${ARGS[@]+"${ARGS[@]}"} \
   || exit $?
 
-# health stamp → catalog branch (transition/24h gated, advisory). CI's
-# watchdog leg 5 and digest §⑤ read it there — the local file alone is
+# health stamp → catalog branch. NOTE: publish_health is deferred until AFTER
+# the verdict-push loop below stamps `pushed` for THIS run. Publishing here
+# (before the push resolves) means the stamp that lands on the branch carries
+# the PREVIOUS run's pushed value — diagnose.ts merges foreign keys, so a stale
+# `pushed` survives into this run's local stamp and publish_health reads it.
+# The digest §⑤ / watchdog leg then always reports a one-run-lagged push status:
+# a first-ever push failure is invisible until the next run, and a recovery
+# (spooled→ok) is reported one cycle late. Each terminal path below stamps
+# pushed and then publishes, so the published stamp reflects the current run.
+# Non-push ends (fetch/commit failure after all retries) get an explicit
+# 'not-pushed' stamp before publishing: without it a wedged worker keeps
+# broadcasting the last successful run's pushed=ok until its 2h stamp goes
+# stale — exactly the window the watchdog leg is supposed to catch.
+# CI's watchdog leg 5 and digest §⑤ read it there — the local file alone is
 # invisible to them, and verdict commits can't express "alive but degraded"
-publish_health
 
 # push payload = this run's verdicts ∪ unreplayed spool — an empty TMPV no
 # longer short-circuits when the spool still has lines waiting to land
@@ -415,7 +426,7 @@ for i in 1 2 3 4; do
   # push success/failure — never local git state — clear the spool.
   comm -13 <(git show origin/catalog:ai-verdicts.jsonl 2>/dev/null | sort -u) \
            <(sort -u "$PAY") > "$VVIEW"
-  [ -s "$VVIEW" ] || { log "verdicts already on origin/catalog"; : > "$SPOOL"; stamp_health pushed already-landed; exit 0; }
+  [ -s "$VVIEW" ] || { log "verdicts already on origin/catalog"; : > "$SPOOL"; stamp_health pushed already-landed; publish_health; exit 0; }
   touch ai-verdicts.jsonl
   # a remote file whose last byte isn't '\n' would fuse its last line with the
   # first appended line — two verdicts lost inside one malformed blob that the
@@ -427,12 +438,21 @@ for i in 1 2 3 4; do
   git add ai-verdicts.jsonl
   git commit -qm "ai-diagnose: $(date '+%F %H:%M')" \
     || { log "commit attempt $i failed"; sleep 3; continue; }
-  git push -q origin catalog && { : > "$SPOOL"; stamp_health pushed ok; exit 0; }
+  git push -q origin catalog && { : > "$SPOOL"; stamp_health pushed ok; publish_health; exit 0; }
   log "push attempt $i failed"; sleep 3
 done
+# Every remaining exit is a non-push end: diagnose.ts merges foreign keys, so
+# a `pushed` stamped by an EARLIER run survives in $HEALTHF. Without stamping
+# here the published signal would keep saying "ok"/"spooled" from that old run
+# — a wedged worker (fetch/commit failure every tick) never publishes its own
+# at, so publish_health's 2h freshness guard lets the stale-but-ok stamp pin
+# the watchdog/digest blind. Stamp honestly, then publish.
+stamp_health pushed not-pushed
+publish_health
 # push never landed — keep the payload for the next run instead of burning
 # the LLM again; diagnose reads it via VVIEW so the keys stay decided
 cp "$PAY" "$SPOOL"
 stamp_health pushed spooled
+publish_health
 log "verdicts NOT pushed — spooled $(wc -l < "$SPOOL" | tr -d ' ') lines for next run's replay (fail-closed, no LLM waste)"
 exit 1
