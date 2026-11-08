@@ -123,11 +123,12 @@ export const NO_VERDICT_AGE_MS = 48 * 3600e3
 
 /** The candidate-version clock's STRING form, mirroring candidateHeldAt's
  *  source order (pendingUpdate.heldAt → candidate capabilities.scannedAt →
- *  firstSeenAt): returns the first stamp that actually parses. firstSeenAt
- *  alone undercounts a pending entry re-scanned after a version bump — the
- *  scan stamp IS the candidate's birth, and the 48h window below must measure
- *  the same clock diagnose's degraded-review window does. */
-function heldStamp(e: PluginEntry): string | undefined {
+ *  firstSeenAt): returns the first stamp that actually parses, or Number.NaN
+ *  when the whole chain is garbage. firstSeenAt alone undercounts a pending
+ *  entry re-scanned after a version bump — the scan stamp IS the candidate's
+ *  birth, and the 48h window below must measure the same clock diagnose's
+ *  degraded-review window does. */
+function heldStamp(e: PluginEntry): string | number {
   // candidateSlot, not raw pendingUpdate: on a pending entry a leftover
   // hold is the B3 inverted state — its heldAt/scannedAt describe dead
   // bytes, not the candidate whose 48h clock this stamp feeds
@@ -135,9 +136,15 @@ function heldStamp(e: PluginEntry): string | undefined {
   const caps = slot?.capabilities ?? e.capabilities
   for (const s of [slot?.heldAt, caps.scannedAt, e.firstSeenAt])
     if (s && Number.isFinite(Date.parse(s))) return s
-  // every stamp unparseable → omit the line entirely: rendering a garbage
-  // date is worse than no date (aging still fails visible via candidateHeldAt)
-  return undefined
+  // every stamp unparseable → NaN sentinel: the AGE gate must read it as
+  // AGED (fail-visible — a broken clock surfaces a human issue instead of
+  // silently dropping the target from the backlog), while every `held ?`
+  // guard below is falsy for NaN, so the garbage date never renders in the
+  // issue body or the aggregate rows. Returning undefined here would let a
+  // corrupt-clock hold vanish from §⑤/docket entirely even though diagnose
+  // and digest treat the same clock as over-aged (DATA-FLOWS §8: "时间戳
+  // 全部不可解析 → NaN → 按'超龄'处理").
+  return Number.NaN
 }
 
 /** Pending targets that need a human surface: latest verdict came from AI,
@@ -189,7 +196,7 @@ export function docketTargets(
       ...(slot.capabilities.scannedAt === null ? { unscanned: true } : {}),
       verification: slot.verification.status,
       ...(e.slug ? { slug: e.slug } : {}),
-      ...(held ? { heldAt: held } : {}),
+      ...(typeof held === 'string' ? { heldAt: held } : {}),
       ...(slot.publishedAt ? { publishedAt: slot.publishedAt } : {}),
       ...(slot.integrity ? { integrity: slot.integrity } : {}),
       ...(preview.length ? { scanPreview: preview.map(s => s.slice(0, 160)) } : {}),
@@ -254,7 +261,7 @@ export function docketTargets(
           && !epochGoverning(latest.get(vkey(e.name, null)), e.name, tomb)) {
         repoOnly.push({
           name: e.name,
-          ...(held ? { heldAt: held } : {}),
+          ...(typeof held === 'string' ? { heldAt: held } : {}),
           ...(meta.unscanned ? { unscanned: true } : {}),
           ...(meta.redFlags ? { redFlags: meta.redFlags } : {}),
           ...(meta.findings ? { findings: meta.findings } : {}),

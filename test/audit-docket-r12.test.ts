@@ -33,6 +33,7 @@ import { mkdtempSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { docketTargets, issueBody, main, NONE_BACKLOG, REPO_BACKLOG } from '../pipeline/docket.ts'
+import { unreviewedTargets } from '../pipeline/ai/diagnose.ts'
 import type { CatalogIndex, PluginEntry, AiVerdict } from '../src/schema.ts'
 
 const e = (over: Partial<PluginEntry> = {}): PluginEntry => ({
@@ -203,5 +204,58 @@ describe('main — close path hardening', () => {
     expect(comment).toBeTruthy()
     expect(comment!.join(' ')).toContain('该版本已放行')
     expect(comment!.join(' ')).not.toContain('已不在 catalog 索引中')
+  })
+})
+
+/* ---------- §8 held-clock consistency (round 8) ---------- */
+
+describe('held clock — a broken stamp chain fails visible in the AGE gate too', () => {
+  it('no verdict + unparseable held clock → aged standing issue, no garbage date rendered', () => {
+    // candidateHeldAt (diagnose/digest §②) propagates NaN for an unparseable
+    // chain and reads it as AGED; heldStamp used to return undefined, so the
+    // target's own age context silently disappeared while the gate still let
+    // the row through. Now both sides agree: NaN sentinel gates in, `held ?`
+    // guards keep the garbage date out of every rendered line.
+    const broken = e({
+      name: 'clk', slug: 'o/clk',
+      firstSeenAt: 'not-a-date',
+      capabilities: { scannedAt: null, findings: [], redFlags: [] },
+    })
+    const t = docketTargets(idx([broken]), [])
+    expect(t).toEqual([expect.objectContaining({ name: 'clk', version: '1.0.0', verdict: 'none' })])
+    expect('heldAt' in t[0]!).toBe(false)
+    const body = issueBody(t[0]!)
+    expect(body).not.toContain('在押自')
+  })
+
+  it('diagnose and docket agree on the broken-clock candidate (shared clock, shared posture)', () => {
+    // same fixture through both predicates: diagnose re-queues it into the AI
+    // backlog (NaN reads as over-aged for the unverified defer) and docket
+    // surfaces the standing human issue — one queue, one clock semantics
+    const broken = e({
+      name: 'clk', slug: 'o/clk',
+      firstSeenAt: 'not-a-date',
+      capabilities: { scannedAt: null, findings: [], redFlags: [] },
+      verification: { status: 'unverified' },
+    })
+    expect(unreviewedTargets(idx([broken]), [], undefined, { now: '2026-01-02T00:00:00Z' }).length).toBe(1)
+    const t = docketTargets(idx([broken]), [])
+    expect(t.length).toBe(1)
+    expect(t[0]!.verdict).toBe('none')
+  })
+
+  it('a package-level human brake on a broken-clock entry still surfaces the brake, not per-version noise', () => {
+    // pkgBrake skips the per-version none target; the brake owner's own
+    // standing surface is the concern verdict itself — verify the skip does
+    // not hide an aged hold with NO brake (negative control) and DOES hide it
+    // when a brake stands.
+    const broken = e({
+      name: 'clk', slug: 'o/clk', firstSeenAt: 'junk',
+      capabilities: { scannedAt: null, findings: [], redFlags: [] },
+    })
+    const braked = docketTargets(idx([broken]), [hv({ name: 'clk', version: null, verdict: 'concern' })])
+    expect(braked).toEqual([])
+    const unbraked = docketTargets(idx([broken]), [])
+    expect(unbraked.length).toBe(1)
   })
 })
