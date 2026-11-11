@@ -59205,10 +59205,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "verified",
-        "level": "load",
+        "status": "failed",
+        "level": "interactive",
         "opencodeVersion": "2.2.5",
-        "verifiedAt": "2026-11-01T23:48:03.064Z"
+        "verifiedAt": "2026-11-11T17:33:28.682Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/43069156151",
+        "logExcerpt": "tmux session exited during startup",
+        "integrity": "sha512-t78ayhwpYo251Uqk/snRyburfheiPtGv+vLm8w7NHjHhzWzXwr56sSvJwihVVWLzP4gb99nlkhGiguYTrHQqow==",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=18",
