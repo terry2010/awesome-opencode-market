@@ -2,3 +2,4 @@
 {"name":"opencode-keystone","repo":"Adamkadaban/opencode-keystone","type":"plugin","category":null,"desc":{"en":"keystone plugin"},"issue":20,"notified":false}
 {"name":"@fimars/mem9-oc2","repo":"fimars/mem9-oc2","type":"plugin","category":null,"desc":{"en":"mem9 plugin"},"issue":22,"notified":false}
 {"name":null,"repo":"4nuva/opencode-terminal-notify","type":"plugin","category":null,"desc":{"en":"Terminal notification plugin for opencode — e2e test of the new repo review path."},"version":"8920c60a30f8c69828ecbc6f281282894d3f7e4a","pkg":"opencode-terminal-notify","issue":812,"at":"2026-11-05T06:42:54.712Z","notified":true}
+{"name":"oc-market-quail-zephyr-72a0","repo":null,"type":"plugin","category":["开发流程"],"desc":{"zh":"投稿流水线端到端验证——市场插件自用的演练包","en":"E2E verification of the submission pipeline — the market plugin's own rehearsal package."},"version":"0.0.6","issue":1022,"author":"terry2010","at":"2026-11-12T06:06:13.482Z","notified":false}
