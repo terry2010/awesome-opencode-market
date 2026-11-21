@@ -41158,8 +41158,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:12.289Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "8d791944453f4e4b2d79322016762464173b1829"
       },
       "compat": {},
       "approval": "pending",
@@ -42405,8 +42409,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:14.466Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "ve\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"2228293026/magpie-plugin-xingchi#3adf17ca9d62c2b8e0069a074ea586f2d2c43ab4\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_41cf2d67\"}}]}",
+        "integrity": "3adf17ca9d62c2b8e0069a074ea586f2d2c43ab4",
+        "retries": 1
       },
       "compat": {},
       "approval": "pending",
@@ -44699,8 +44709,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:12.284Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: git dep preparation failed\n      at Pt (/$bunfs/root/chunk-q9rt4q3v.js:8:4481)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
+        "integrity": "6fb9a7e1b4d67d2b2732552aa588b5b9edb802bf",
+        "retries": 1
       },
       "compat": {},
       "approval": "pending",
@@ -49360,7 +49376,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:22.179Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "atures\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"active-collab-agent@0.12.2\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_db800a99\"}}]}",
+        "integrity": "sha512-AdnOOK7RzV0v6zcLvx4UdzRAJTroYbTY5fhX4JoXKm5lEseEgPOxqgeycGJEBmBYvzGh7O61CARVCrpJEG0gSg==",
+        "retries": 1
       },
       "compat": {},
       "approval": "pending",
@@ -55136,7 +55159,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:12.877Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"agents-permissions@7.1.1\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_a92aac29\"}}]}",
+        "integrity": "sha512-AUc/w9lGwmgUWrym1HZySTVstKblmMnSc0vm0kS4s9q/DfWuZfC7mi38F2qP5WfboMBIGUxhHbONkG8tAVtFgw==",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=24"
@@ -64962,7 +64992,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "verified",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:17.126Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "sha512-BNYeaqqQJp/ziWQOrCy7HIaOGPYgK0FSavhPqlQE0WTMInUcHSofefdVtHw+j+mtdKjtE62xKXk0jIb0Y7HpxA=="
       },
       "compat": {},
       "approval": "pending",
@@ -66780,8 +66815,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "render",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:12.300Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "gui evaluate: gui subprocess: Error: Command failed: /tmp/verify-hSfw14/sb.sh env npx tsx /home/runner/work/awesome-opencode-market/awesome-opencode-market/pipeline/verify/gui.ts /tmp/verify-hSfw14/u/cache/opencode/npm/git-opencode-tts-d9f590e9aa07/1795302689091/node_modules/opencode-tts/dist/gui-experimental.cjs\nnpm warn exec The following package was not found and will be installed: tsx@4.23.15\nnpm error code EACCES\nnpm error syscall spawn sh\nnpm error path /home/runner/work/awesome-opencode-market/awesome-opencode-market\n",
+        "integrity": "02a4ec40e025052178b7b81b432a6d9b40b8949d",
+        "retries": 1
       },
       "compat": {},
       "approval": "pending",
@@ -68432,8 +68473,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:17.236Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "3719541395f2eddfd53e01806979e103c475df75"
       },
       "compat": {},
       "approval": "pending",
@@ -68503,8 +68548,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:21.715Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "3719541395f2eddfd53e01806979e103c475df75"
       },
       "compat": {},
       "approval": "pending",
@@ -71522,14 +71571,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
+        "status": "failed",
         "level": "install",
         "opencodeVersion": "2.2.5",
-        "verifiedAt": "2026-11-20T03:07:29.499Z",
-        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44665429148",
-        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/tmp/verify-S4Fs1c/u/.npm/_cacache/tmp/git-clonedSizSi/package.json'\n      at async ir (/$bunfs/root/chunk-q9rt4q3v.js:11:947)\n      at async load (/$bunfs/root/chunk-q9rt4q3v.js:11:4562)\n      at async normalize (/$bunfs/root/chunk-q9rt4q3v.js:11:4473)\n      at async <anonymous> (/$bunfs/root/chunk-wmhrq2bh.js:6:8569)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
-        "integrity": "1c28d0f3def39a449684fe518131e04b36e76132",
-        "retries": 3
+        "verifiedAt": "2026-11-21T23:11:17.629Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/tmp/verify-a3yHTn/u/.npm/_cacache/tmp/git-cloneBbzCAP/package.json'\n      at async ir (/$bunfs/root/chunk-q9rt4q3v.js:11:947)\n      at async load (/$bunfs/root/chunk-q9rt4q3v.js:11:4562)\n      at async normalize (/$bunfs/root/chunk-q9rt4q3v.js:11:4473)\n      at async <anonymous> (/$bunfs/root/chunk-wmhrq2bh.js:6:8569)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
+        "integrity": "25f6589912a7772bfcab8989e522a0663db0bf02",
+        "retries": 1
       },
       "compat": {},
       "approval": "legacy"
@@ -87298,8 +87347,13 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:14.443Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "a8f46a34c1f0f125ee03742a7b7524e7815df6d1",
+        "retries": 1
       },
       "compat": {},
       "approval": "pending",
@@ -88322,8 +88376,13 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:14.440Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "ca15cddd129c3944696f2c40f7ed3cadaf670449",
+        "retries": 1
       },
       "compat": {},
       "approval": "legacy"
@@ -92221,8 +92280,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "skipped",
-        "level": "install"
+        "status": "failed",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:22.678Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "n\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"opencode-dux@1.4.26\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_f29a06c8\"}}]}",
+        "integrity": "sha512-D5qCiEznB6F7ME8Ewtu370miFoaMJwDxxrc5gBsBTnCIaleITO8WumvJFksrmqKfWv9LgsdwXrulTcELvBeR0Q==",
+        "retries": 1
       },
       "compat": {
         "peer": "zod@^4.0.0"
@@ -93446,8 +93511,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "skipped",
-        "level": "install"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:13.418Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: git dep preparation failed\n      at Pt (/$bunfs/root/chunk-q9rt4q3v.js:8:4481)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
+        "integrity": "5688bae8038ddf1eba35f82f86a0b1215ef93698",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=20",
@@ -93517,8 +93588,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "skipped",
-        "level": "install"
+        "status": "failed",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:19.043Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.reference\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.agent\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}}]}",
+        "integrity": "sha512-Px46zB81Mvm+Hrwggb6KU+PeKwArcFEK8wrK7SDTFXyUzF6bBZ659yNOuhn7/s6ZUZ+j2UDi38BEk/rWe5u1EQ==",
+        "retries": 1
       },
       "compat": {
         "peer": "@opencode-ai/plugin@>=1.18.0, @opencode-ai/sdk@>=1.18.0, @opentui/core@>=0.4.5, @opentui/solid@>=0.4.5, solid-js@>=1.9.12"
@@ -104715,7 +104792,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "verified",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:24.865Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "sha512-n0ZYurQlYowwZHUUDUvKqln2GsJqUi0UCxK93yv5mpBozBsV74/UgFeOM6Pr3RIdkvcU1QLx8fF91BQaV4R1XQ=="
       },
       "compat": {},
       "approval": "pending",
@@ -106442,8 +106524,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:14.062Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "165049e7996766a624068795823c6a36326fec9d"
       },
       "compat": {},
       "approval": "pending",
@@ -113404,8 +113490,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:19.101Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "9e31e5735e1beac045e240d1bafe339d40af60da"
       },
       "compat": {},
       "approval": "pending",
@@ -121114,8 +121204,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:14.684Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.reference\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.agent\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}}]}",
+        "integrity": "d0223f9b932c9a284465ff0f2575874c8b5b6d82",
+        "retries": 1
       },
       "compat": {
         "engines": "opencode >=1.4.0",
@@ -158753,8 +158849,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:19.498Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: git dep preparation failed\n      at Pt (/$bunfs/root/chunk-q9rt4q3v.js:8:4481)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
+        "integrity": "5e01b7d5d777fd9b1581eda955a0bc2befdfebdf",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=20"
@@ -158820,8 +158922,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:24.443Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: git dep preparation failed\n      at Pt (/$bunfs/root/chunk-q9rt4q3v.js:8:4481)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
+        "integrity": "fca648c17922b4faa118fb9d49adc88669cfcdfd",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=20"
@@ -165565,8 +165673,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:19.691Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "8d26ba735c6768a394177e48c380f1a3564e9cd8"
       },
       "compat": {},
       "approval": "pending",
@@ -187281,7 +187393,14 @@
           "redFlags": []
         },
         "verification": {
-          "status": "unverified"
+          "status": "failed",
+          "level": "load",
+          "opencodeVersion": "2.2.5",
+          "verifiedAt": "2026-11-21T23:11:20.638Z",
+          "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+          "logExcerpt": ":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"@geohar/opencode-cribsheet@0.26.0\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_1d2f273a\"}}]}",
+          "integrity": "sha512-cZqQY1M8Un/rjqpcl5lU/CCm3N37nZujhyQChdyti8asgHYrwm3BRF7u11twhUZPG3u8nLQCwuRmlg59BuxQvA==",
+          "retries": 1
         },
         "features": [
           "server"
@@ -187381,7 +187500,14 @@
           "redFlags": []
         },
         "verification": {
-          "status": "unverified"
+          "status": "failed",
+          "level": "load",
+          "opencodeVersion": "2.2.5",
+          "verifiedAt": "2026-11-21T23:11:25.660Z",
+          "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+          "logExcerpt": "server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"@geohar/opencode-mcp-combiner@0.24.5\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_38b04d0b\"}}]}",
+          "integrity": "sha512-bRFXmxX4goe8c2aXKhmlV4qSCZGgkxGAg64g36jC19T1BnKH7sz1OkAVU5uBZ4abI4wjM8uwr0TamZIZu4r2Tg==",
+          "retries": 1
         },
         "features": [
           "server"
@@ -187489,7 +187615,14 @@
           "redFlags": []
         },
         "verification": {
-          "status": "unverified"
+          "status": "failed",
+          "level": "load",
+          "opencodeVersion": "2.2.5",
+          "verifiedAt": "2026-11-21T23:11:22.915Z",
+          "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+          "logExcerpt": "\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"@geohar/opencode-sharedserver@0.9.6\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_2b750af7\"}}]}",
+          "integrity": "sha512-J51YP6krExV3xQFfl4w/X/nNbx4iy0lRoJRe9PooPP5YPIBuu3T7rFu2D2AW94O7RktOI6VcRALQEdLgVxO7wg==",
+          "retries": 1
         },
         "features": [
           "server"
@@ -192405,8 +192538,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:21.374Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "37ec2e7a24be08e37379bff95e4ff427e2fa3e59"
       },
       "compat": {},
       "approval": "pending",
@@ -199503,8 +199640,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:32.454Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "0c2445beee864bc2744585950e462705ca1f096c"
       },
       "compat": {},
       "approval": "pending",
@@ -213171,7 +213312,14 @@
           "redFlags": []
         },
         "verification": {
-          "status": "unverified"
+          "status": "failed",
+          "level": "interactive",
+          "opencodeVersion": "2.2.5",
+          "verifiedAt": "2026-11-21T23:11:24.020Z",
+          "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+          "logExcerpt": "tmux session exited during startup",
+          "integrity": "sha512-IEfKxr7xMC+WhDKpbi9HCMfBRA7YTCiRgZ0kVk1vY1R1onF4VCtCcghWah+vBJyB/PY8KSZywqbbBIg7Xsz8uQ==",
+          "retries": 1
         },
         "features": [
           "server",
@@ -222836,8 +222984,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "interactive",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:21.551Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "tmux session exited during startup",
+        "integrity": "5efeaf98cc5726d878f5058c4437e1ab24a5f60f",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=20.3",
@@ -251732,11 +251886,11 @@
         "status": "failed",
         "level": "load",
         "opencodeVersion": "2.2.5",
-        "verifiedAt": "2026-11-21T17:48:10.560Z",
-        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44931891888",
-        "logExcerpt": "plugin absent from /api/plugin after the load window\nserver listening on http://127.0.0.1:39025\nserver password [redacted]\n=====================================================================\n  Error: 'entroly' Python package is not installed.\n\n  The entroly-mcp package is a bridge. To use it,\n  you must have the Python engine installed on your system.\n\n  Please run:\n      pip install entroly\n  or\n      pipx install entroly\n=====================================================================\n\ntimestamp=2026-11-21T17:48:10.807Z level=INFO run=f9198640 message=\"cli starting\" version=2.2.5 channel=latest local=false args=\"[\\\"plugin\\\",\\\"add\\\",\\\"entroly-mcp@1.0.91\\\"]\" role=cli\n\n/api/plugin: {\"location\":{\"directory\":\"/tmp/verify-TaX6Dn/u\"},\"data\":[]}",
+        "verifiedAt": "2026-11-21T23:11:15.208Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "plugin absent from /api/plugin after the load window\nserver listening on http://127.0.0.1:41211\nserver password [redacted]\n=====================================================================\n  Error: 'entroly' Python package is not installed.\n\n  The entroly-mcp package is a bridge. To use it,\n  you must have the Python engine installed on your system.\n\n  Please run:\n      pip install entroly\n  or\n      pipx install entroly\n=====================================================================\n\ntimestamp=2026-11-21T23:11:15.340Z level=INFO run=420da08a message=\"cli starting\" version=2.2.5 channel=latest local=false args=\"[\\\"plugin\\\",\\\"add\\\",\\\"entroly-mcp@1.0.91\\\"]\" role=cli\n\n/api/plugin: {\"location\":{\"directory\":\"/tmp/verify-eNNTYk/u\"},\"data\":[]}",
         "integrity": "sha512-p/MYHZQA6kdxHJTWyAoerbBC14+uHvKHJLF9ZY99Txilw68mDE/ephejQgzv2Cw753NX+eE6OKQbaRebHNnXyw==",
-        "retries": 2
+        "retries": 3
       },
       "compat": {},
       "approval": "pending",
@@ -257000,8 +257154,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:32.535Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: git dep preparation failed\n      at Pt (/$bunfs/root/chunk-q9rt4q3v.js:8:4481)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
+        "integrity": "a1eafb8ff7e92fb16e3ce9f42b7ed1a640a130d7",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=20"
@@ -266666,7 +266826,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "interactive",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:30.802Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "tmux session exited during startup",
+        "integrity": "sha512-+A0n+ZQIkIdxJNvUaZxCx1h2UX7QrlnCe1FP4ob+UQEV9mw7mbSFmSwsTn+4k0VYZtRxA3YeABkPdpCCrAKb6w==",
+        "retries": 1
       },
       "compat": {
         "engines": "opencode >=2.0.18",
@@ -288168,8 +288335,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:33.296Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: git dep preparation failed\n      at Pt (/$bunfs/root/chunk-q9rt4q3v.js:8:4481)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
+        "integrity": "918e5f329c08cc7074cac974845c9dc2395ab326",
+        "retries": 1
       },
       "compat": {
         "peer": "@opencode/plugin@^2.0.28, @opencode/ai@^2.0.28, @opencode/schema@^2.0.28, effect@^4.0.1"
@@ -293882,8 +294055,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:27.510Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "a241f3650f15210fc710f1032bfe781092b78de8"
       },
       "compat": {
         "engines": "node >=22"
@@ -293947,8 +294124,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:33.410Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "3731a3904a0681720f5005cc9c9660ee84d0b388"
       },
       "compat": {
         "engines": "node >=22"
@@ -300162,8 +300343,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "interactive",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:34.592Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "tmux session exited during startup",
+        "integrity": "3efb0fe04cff539b06c9f7b43583fc7982ebbbd9",
+        "retries": 1
       },
       "compat": {},
       "approval": "legacy"
@@ -300233,8 +300420,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:36.764Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: git dep preparation failed\n      at Pt (/$bunfs/root/chunk-q9rt4q3v.js:8:4481)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
+        "integrity": "df20c22af0513c158cae936fc092e199d2df0f6f",
+        "retries": 1
       },
       "compat": {},
       "approval": "pending",
@@ -301584,8 +301777,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "interactive",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:34.085Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "tmux session exited during startup",
+        "integrity": "0bc513a3d1089d5ef77ff24d847c74a6395aae5b",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=20",
@@ -303376,8 +303575,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:38.769Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "e3e05c0ee8c5d060e6fc725d662a65eb5824cf11"
       },
       "compat": {},
       "approval": "pending",
@@ -312727,7 +312930,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:38.150Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "ures\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"opencode-work-context@0.11.2\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_6fdad082\"}}]}",
+        "integrity": "sha512-Rt4eX5FFbm7Q14Y5XWHy9TZJwIrad0bH45sqMoyhirxaGMickZyBuY8Ehi6z3VfayRO1Tvj2dAk0QA3o+HaOdg==",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=20"
@@ -358144,7 +358354,14 @@
           "redFlags": []
         },
         "verification": {
-          "status": "unverified"
+          "status": "failed",
+          "level": "interactive",
+          "opencodeVersion": "2.2.5",
+          "verifiedAt": "2026-11-21T23:11:37.171Z",
+          "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+          "logExcerpt": "tmux session exited during startup",
+          "integrity": "sha512-bNIBF3SPDVm28+/CabZ6J6VVKlabW6VlTHXxLfqTlkDTiEbwBxlL6n6XLKatD5wpR7wmNdXpBSUyBNX/tWN4OA==",
+          "retries": 1
         },
         "features": [
           "server",
@@ -379527,7 +379744,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "verified",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:39.835Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "sha512-2Dzi4IwoQDt8cPMb1KbgkKae0Qo+ECpMbq3837Ch9kdi8/gDicB1Be/tGtjUL1ubneIRseI2V+UGDbjh1P2XHg=="
       },
       "compat": {
         "engines": "node >=22",
@@ -382853,7 +383075,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "verified",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:42.733Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "sha512-f8jRfm9TvTWGzHCf+mAXz3x6l5lfejeYRrvdpQ/cZ6O8Tt+WkPzBP0BgW6WoDbQYN6CXRQ1SwsdZeeeiXDMiLg=="
       },
       "compat": {},
       "approval": "pending",
@@ -391347,8 +391574,13 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:21.702Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "97ea71982ee96caadaa4fb7b50003de465e893a1",
+        "retries": 1
       },
       "compat": {},
       "approval": "legacy"
@@ -395641,8 +395873,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:41.615Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "dfe0464f9d20484cb0fc38201bc6d7597194c087"
       },
       "compat": {},
       "approval": "pending",
@@ -411565,7 +411801,12 @@
           "redFlags": []
         },
         "verification": {
-          "status": "unverified"
+          "status": "verified",
+          "level": "load",
+          "opencodeVersion": "2.2.5",
+          "verifiedAt": "2026-11-21T23:11:41.743Z",
+          "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+          "integrity": "sha512-FBgMfjJX391yZSIAkWf1pgeJKcsLFe6LZ+ww6ozqWCmwfNNH6Gf0p8ZYfghMEtfr6FRMB6gJ5DYu8qkp5SjozQ=="
         },
         "features": [
           "server"
@@ -412344,8 +412585,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:44.998Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "d55c4603b59b51c44574ba5ad584a2ccd0a286aa"
       },
       "compat": {},
       "approval": "pending",
@@ -417956,8 +418201,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:42.581Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "91c076c585eee1976aa225a8ed8b35bafaf9de92"
       },
       "compat": {
         "engines": "node >=24"
@@ -420919,7 +421168,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:46.449Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "rver\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"opencode-agentrouter-auth1@0.2.0-dev.2\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_bd6f8f5f\"}}]}",
+        "integrity": "sha512-s+MFpklGD0LcIfT0cq4OowzxOHBWuGQr4X0hV7+P78mLi8YDuDh3WlsjqkCLJyij8vId9XnpDjNQ+4ERSwTTVg==",
+        "retries": 1
       },
       "compat": {},
       "approval": "pending",
@@ -427912,8 +428168,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:45.288Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "7e466bac1f07f4072d78500d0ef80d7a796d39a5"
       },
       "compat": {},
       "approval": "pending",
@@ -432199,8 +432459,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:48.099Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "362d37229003e1d0e362571727bcbf5a04cead5d"
       },
       "compat": {},
       "approval": "pending",
@@ -452163,8 +452427,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "install",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:21.712Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "NpmInstallFailedError: \n    at catch (/$bunfs/root/chunk-e5yqm82v.js:2:4172)\n    at Npm.reify (/$bunfs/root/chunk-e5yqm82v.js:2:4211)\n    at Npm.add (/$bunfs/root/chunk-3gvfm5az.js:2:1408)\n    at Npm.add (definition) (/$bunfs/root/chunk-e5yqm82v.js:2:5909)\n    at cli.plugin.add (/$bunfs/root/chunk-xstx9ez9.js:7:21343)\n    at cli.plugin.add (definition) (/$bunfs/root/chunk-3gvfm5az.js:2:1220) {\n  [cause]: Error: git dep preparation failed\n      at Pt (/$bunfs/root/chunk-q9rt4q3v.js:8:4481)\n}\n\n[sandboxed egress is allow-listed — an install fetch failure can be network policy, not a broken package]",
+        "integrity": "4dd1b55ce744c593b0f0c05e80442ea2ef47c388",
+        "retries": 1
       },
       "compat": {
         "engines": "node 24"
@@ -454526,8 +454796,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:45.427Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "2b5dce030b781638462c1018313d316ac8aae630"
       },
       "compat": {},
       "approval": "pending",
@@ -459945,8 +460219,12 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "verified",
+        "level": "structure",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:45.681Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "integrity": "e2c0bf403542534462b59f050c49539fd508daa1"
       },
       "compat": {},
       "approval": "legacy"
@@ -492699,8 +492977,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified",
-        "level": "install"
+        "status": "failed",
+        "level": "interactive",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:48.243Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "tmux session exited during startup",
+        "integrity": "388c20fac6644517525a9a59f18d96ef48e47283",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=20"
@@ -514773,7 +515057,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "interactive",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:46.191Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "tmux session exited during startup",
+        "integrity": "sha512-z3lWTycGBAwi5gnggBpEXcXDfcJ7TmM9h7aMhvN4p9brezTU6iy6gjGhkJjxlSfRimJZtKqZCn5eRiHiMiZmyw==",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=22",
@@ -524943,7 +525234,14 @@
         "redFlags": []
       },
       "verification": {
-        "status": "unverified"
+        "status": "failed",
+        "level": "load",
+        "opencodeVersion": "2.2.5",
+        "verifiedAt": "2026-11-21T23:11:46.261Z",
+        "runUrl": "https://github.com/terry2010/awesome-opencode-market/actions/runs/44960447702",
+        "logExcerpt": "\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.browser\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.command\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compaction\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.formatter\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.image\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.location-watcher\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.shell\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.snapshot\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.tool-output\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.compatibility\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.skill\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.provider\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.provider.dynamic\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.websearch\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"id\":\"opencode.config.policy\",\"source\":{\"type\":\"builtin\"},\"features\":{\"server\":true},\"state\":{\"status\":\"active\"}},{\"source\":{\"type\":\"package\",\"target\":\"agent-memory-hub@0.1.34\"},\"features\":{\"server\":true},\"state\":{\"status\":\"failed\",\"error\":\"Plugin must export a default definition with an id and an effect or setup function.\",\"ref\":\"err_5b32597c\"}}]}",
+        "integrity": "sha512-w619yyTq2+eWNIzt6KYeP13JpKEtgP4rdRQLX3erupvp7VYdUrmOih2KL2xys741XLbVZ7x/fDMHN5KgEGwmSw==",
+        "retries": 1
       },
       "compat": {
         "engines": "node >=20"
